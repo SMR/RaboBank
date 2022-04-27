@@ -67,6 +67,24 @@ class CSVDecoderTests: XCTestCase {
             XCTFail("Incorrect error \(error)")
         }
     }
+    func testRealCustomerDecoding() {
+        let data = """
+        "First name","Sur name","Issue count","Date of birth"
+        "Theo","Jansen",5,"1978-01-02T00:00:00"
+        """
+        let decoder = CSVDecoder()
+        do {
+            let realCustomer = try decoder.decode(Customer.self, from: data)
+            XCTAssertEqual(realCustomer.firstName, "Theo")
+            XCTAssertEqual(realCustomer.surName, "Jansen")
+            XCTAssertEqual(realCustomer.issueCount, 5)
+            XCTAssertEqual(realCustomer.birthDate(), Customer.dateFormatter().date(from: "1978-01-02T00:00:00"))
+        }
+        catch {
+            print(error)
+            XCTFail(error.localizedDescription)
+        }
+    }
  
     
     // MARK: Customer
