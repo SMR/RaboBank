@@ -10,7 +10,6 @@
 		D3E54455281995FD0081B157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E54454281995FD0081B157 /* AppDelegate.swift */; };
 		D3E5445E281995FF0081B157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E5445D281995FF0081B157 /* Assets.xcassets */; };
 		D3E54461281995FF0081B157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E5445F281995FF0081B157 /* LaunchScreen.storyboard */; };
-		D3E5446C281995FF0081B157 /* RaboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5446B281995FF0081B157 /* RaboTests.swift */; };
 		D3E54476281995FF0081B157 /* RaboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E54475281995FF0081B157 /* RaboUITests.swift */; };
 		D3E54478281995FF0081B157 /* RaboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E54477281995FF0081B157 /* RaboUITestsLaunchTests.swift */; };
 		D3E544902819BC650081B157 /* MockDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5448F2819BC650081B157 /* MockDependency.swift */; };
@@ -46,6 +45,10 @@
 		D3E544D0281A6C6E0081B157 /* CustomerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544CF281A6C6E0081B157 /* CustomerListViewModel.swift */; };
 		D3E544D2281A6C9F0081B157 /* CustomerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544D1281A6C9F0081B157 /* CustomerViewModel.swift */; };
 		D3E544D4281A6CBF0081B157 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544D3281A6CBF0081B157 /* DetailsViewModel.swift */; };
+		D3E544D8281A94150081B157 /* AppCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544D7281A94150081B157 /* AppCoordinatorTests.swift */; };
+		D3E544DA281A94B60081B157 /* HomeCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544D9281A94B60081B157 /* HomeCoordinatorTests.swift */; };
+		D3E544DC281A950C0081B157 /* DetailsCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544DB281A950C0081B157 /* DetailsCoordinatorTests.swift */; };
+		D3E544DE281A953E0081B157 /* DetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544DD281A953E0081B157 /* DetailsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +75,6 @@
 		D3E54460281995FF0081B157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3E54462281995FF0081B157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3E54467281995FF0081B157 /* RaboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3E5446B281995FF0081B157 /* RaboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaboTests.swift; sourceTree = "<group>"; };
 		D3E54471281995FF0081B157 /* RaboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E54475281995FF0081B157 /* RaboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaboUITests.swift; sourceTree = "<group>"; };
 		D3E54477281995FF0081B157 /* RaboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaboUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -109,6 +111,10 @@
 		D3E544CF281A6C6E0081B157 /* CustomerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListViewModel.swift; sourceTree = "<group>"; };
 		D3E544D1281A6C9F0081B157 /* CustomerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewModel.swift; sourceTree = "<group>"; };
 		D3E544D3281A6CBF0081B157 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		D3E544D7281A94150081B157 /* AppCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinatorTests.swift; sourceTree = "<group>"; };
+		D3E544D9281A94B60081B157 /* HomeCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorTests.swift; sourceTree = "<group>"; };
+		D3E544DB281A950C0081B157 /* DetailsCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinatorTests.swift; sourceTree = "<group>"; };
+		D3E544DD281A953E0081B157 /* DetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +174,6 @@
 				D3E5448B2819B43D0081B157 /* Utils */,
 				D3E5448C2819B4A00081B157 /* CSVDecoder */,
 				D3E544882819AF030081B157 /* Resources */,
-				D3E54454281995FD0081B157 /* AppDelegate.swift */,
 			);
 			path = Rabo;
 			sourceTree = "<group>";
@@ -176,9 +181,12 @@
 		D3E5446A281995FF0081B157 /* RaboTests */ = {
 			isa = PBXGroup;
 			children = (
-				D3E5446B281995FF0081B157 /* RaboTests.swift */,
 				D3E5448F2819BC650081B157 /* MockDependency.swift */,
 				D3E5449B2819BF980081B157 /* CSVDecoderTests.swift */,
+				D3E544D7281A94150081B157 /* AppCoordinatorTests.swift */,
+				D3E544D9281A94B60081B157 /* HomeCoordinatorTests.swift */,
+				D3E544DB281A950C0081B157 /* DetailsCoordinatorTests.swift */,
+				D3E544DD281A953E0081B157 /* DetailsViewModelTests.swift */,
 			);
 			path = RaboTests;
 			sourceTree = "<group>";
@@ -222,6 +230,7 @@
 		D3E544872819AEC70081B157 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				D3E54454281995FD0081B157 /* AppDelegate.swift */,
 				D3E544A52819D7240081B157 /* Coordinator.swift */,
 				D3E544A72819D8D10081B157 /* AppCoordinator.swift */,
 				D3E544A92819D9120081B157 /* HomeCoordinator.swift */,
@@ -474,9 +483,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E544D8281A94150081B157 /* AppCoordinatorTests.swift in Sources */,
+				D3E544DA281A94B60081B157 /* HomeCoordinatorTests.swift in Sources */,
 				D3E544902819BC650081B157 /* MockDependency.swift in Sources */,
+				D3E544DC281A950C0081B157 /* DetailsCoordinatorTests.swift in Sources */,
+				D3E544DE281A953E0081B157 /* DetailsViewModelTests.swift in Sources */,
 				D3E5449C2819BF980081B157 /* CSVDecoderTests.swift in Sources */,
-				D3E5446C281995FF0081B157 /* RaboTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
