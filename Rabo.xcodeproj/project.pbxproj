@@ -8,14 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D3E54455281995FD0081B157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E54454281995FD0081B157 /* AppDelegate.swift */; };
-		D3E54457281995FD0081B157 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E54456281995FD0081B157 /* SceneDelegate.swift */; };
-		D3E54459281995FD0081B157 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E54458281995FD0081B157 /* ViewController.swift */; };
 		D3E5445E281995FF0081B157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3E5445D281995FF0081B157 /* Assets.xcassets */; };
 		D3E54461281995FF0081B157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E5445F281995FF0081B157 /* LaunchScreen.storyboard */; };
 		D3E5446C281995FF0081B157 /* RaboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5446B281995FF0081B157 /* RaboTests.swift */; };
 		D3E54476281995FF0081B157 /* RaboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E54475281995FF0081B157 /* RaboUITests.swift */; };
 		D3E54478281995FF0081B157 /* RaboUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E54477281995FF0081B157 /* RaboUITestsLaunchTests.swift */; };
-		D3E5448E2819B9D60081B157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3E5448D2819B9D60081B157 /* Main.storyboard */; };
 		D3E544902819BC650081B157 /* MockDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5448F2819BC650081B157 /* MockDependency.swift */; };
 		D3E544922819BDF00081B157 /* CSVDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544912819BDF00081B157 /* CSVDecoder.swift */; };
 		D3E544942819BE4C0081B157 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544932819BE4C0081B157 /* Header.swift */; };
@@ -32,6 +29,23 @@
 		D3E544AA2819D9120081B157 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544A92819D9120081B157 /* HomeCoordinator.swift */; };
 		D3E544AC2819D9660081B157 /* DetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544AB2819D9660081B157 /* DetailsCoordinator.swift */; };
 		D3E544AE2819D9EA0081B157 /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544AD2819D9EA0081B157 /* Instantiatable.swift */; };
+		D3E544B2281A62B10081B157 /* CustomerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E544B1281A62B10081B157 /* CustomerViewCell.xib */; };
+		D3E544B4281A62FE0081B157 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E544B3281A62FE0081B157 /* LoadingViewController.xib */; };
+		D3E544B6281A636C0081B157 /* EmptyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E544B5281A636C0081B157 /* EmptyViewController.xib */; };
+		D3E544B8281A63990081B157 /* ErrorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E544B7281A63990081B157 /* ErrorViewController.xib */; };
+		D3E544BA281A63C40081B157 /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E544B9281A63C40081B157 /* DetailsViewController.xib */; };
+		D3E544BE281A69120081B157 /* BaseCollectionCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544BD281A69120081B157 /* BaseCollectionCollectionViewController.swift */; };
+		D3E544C0281A6A550081B157 /* CustomerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544BF281A6A550081B157 /* CustomerCollectionViewController.swift */; };
+		D3E544C2281A6B060081B157 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544C1281A6B060081B157 /* DetailsViewController.swift */; };
+		D3E544C4281A6B360081B157 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544C3281A6B360081B157 /* EmptyViewController.swift */; };
+		D3E544C6281A6B500081B157 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544C5281A6B500081B157 /* ErrorViewController.swift */; };
+		D3E544C8281A6B860081B157 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544C7281A6B860081B157 /* LoadingViewController.swift */; };
+		D3E544CA281A6BC30081B157 /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544C9281A6BC30081B157 /* BorderedView.swift */; };
+		D3E544CC281A6BDF0081B157 /* BorderLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544CB281A6BDF0081B157 /* BorderLayer.swift */; };
+		D3E544CE281A6C3D0081B157 /* CustomerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544CD281A6C3D0081B157 /* CustomerViewCell.swift */; };
+		D3E544D0281A6C6E0081B157 /* CustomerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544CF281A6C6E0081B157 /* CustomerListViewModel.swift */; };
+		D3E544D2281A6C9F0081B157 /* CustomerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544D1281A6C9F0081B157 /* CustomerViewModel.swift */; };
+		D3E544D4281A6CBF0081B157 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544D3281A6CBF0081B157 /* DetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +68,6 @@
 /* Begin PBXFileReference section */
 		D3E54451281995FD0081B157 /* Rabo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rabo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E54454281995FD0081B157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3E54456281995FD0081B157 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3E54458281995FD0081B157 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3E5445D281995FF0081B157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3E54460281995FF0081B157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3E54462281995FF0081B157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,7 +76,6 @@
 		D3E54471281995FF0081B157 /* RaboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3E54475281995FF0081B157 /* RaboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaboUITests.swift; sourceTree = "<group>"; };
 		D3E54477281995FF0081B157 /* RaboUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaboUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D3E5448D2819B9D60081B157 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D3E5448F2819BC650081B157 /* MockDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDependency.swift; sourceTree = "<group>"; };
 		D3E544912819BDF00081B157 /* CSVDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVDecoder.swift; sourceTree = "<group>"; };
 		D3E544932819BE4C0081B157 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
@@ -81,6 +92,23 @@
 		D3E544A92819D9120081B157 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		D3E544AB2819D9660081B157 /* DetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinator.swift; sourceTree = "<group>"; };
 		D3E544AD2819D9EA0081B157 /* Instantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiatable.swift; sourceTree = "<group>"; };
+		D3E544B1281A62B10081B157 /* CustomerViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomerViewCell.xib; sourceTree = "<group>"; };
+		D3E544B3281A62FE0081B157 /* LoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		D3E544B5281A636C0081B157 /* EmptyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyViewController.xib; sourceTree = "<group>"; };
+		D3E544B7281A63990081B157 /* ErrorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorViewController.xib; sourceTree = "<group>"; };
+		D3E544B9281A63C40081B157 /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		D3E544BD281A69120081B157 /* BaseCollectionCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCollectionViewController.swift; sourceTree = "<group>"; };
+		D3E544BF281A6A550081B157 /* CustomerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerCollectionViewController.swift; sourceTree = "<group>"; };
+		D3E544C1281A6B060081B157 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D3E544C3281A6B360081B157 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		D3E544C5281A6B500081B157 /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		D3E544C7281A6B860081B157 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		D3E544C9281A6BC30081B157 /* BorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
+		D3E544CB281A6BDF0081B157 /* BorderLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderLayer.swift; sourceTree = "<group>"; };
+		D3E544CD281A6C3D0081B157 /* CustomerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewCell.swift; sourceTree = "<group>"; };
+		D3E544CF281A6C6E0081B157 /* CustomerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerListViewModel.swift; sourceTree = "<group>"; };
+		D3E544D1281A6C9F0081B157 /* CustomerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewModel.swift; sourceTree = "<group>"; };
+		D3E544D3281A6CBF0081B157 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,9 +169,6 @@
 				D3E5448C2819B4A00081B157 /* CSVDecoder */,
 				D3E544882819AF030081B157 /* Resources */,
 				D3E54454281995FD0081B157 /* AppDelegate.swift */,
-				D3E54456281995FD0081B157 /* SceneDelegate.swift */,
-				D3E54458281995FD0081B157 /* ViewController.swift */,
-				D3E5448D2819B9D60081B157 /* Main.storyboard */,
 			);
 			path = Rabo;
 			sourceTree = "<group>";
@@ -178,6 +203,8 @@
 		D3E544852819AA4F0081B157 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D3E544B0281A625F0081B157 /* Controllers */,
+				D3E544AF281A62480081B157 /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +212,9 @@
 		D3E544862819AEAD0081B157 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				D3E544CF281A6C6E0081B157 /* CustomerListViewModel.swift */,
+				D3E544D1281A6C9F0081B157 /* CustomerViewModel.swift */,
+				D3E544D3281A6CBF0081B157 /* DetailsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -245,6 +275,34 @@
 				D3E544992819BED30081B157 /* UnkeyedContainer.swift */,
 			);
 			path = CSVDecoder;
+			sourceTree = "<group>";
+		};
+		D3E544AF281A62480081B157 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D3E544B1281A62B10081B157 /* CustomerViewCell.xib */,
+				D3E544CD281A6C3D0081B157 /* CustomerViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D3E544B0281A625F0081B157 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3E544B3281A62FE0081B157 /* LoadingViewController.xib */,
+				D3E544B5281A636C0081B157 /* EmptyViewController.xib */,
+				D3E544B7281A63990081B157 /* ErrorViewController.xib */,
+				D3E544B9281A63C40081B157 /* DetailsViewController.xib */,
+				D3E544BD281A69120081B157 /* BaseCollectionCollectionViewController.swift */,
+				D3E544BF281A6A550081B157 /* CustomerCollectionViewController.swift */,
+				D3E544C1281A6B060081B157 /* DetailsViewController.swift */,
+				D3E544C3281A6B360081B157 /* EmptyViewController.swift */,
+				D3E544C5281A6B500081B157 /* ErrorViewController.swift */,
+				D3E544C7281A6B860081B157 /* LoadingViewController.swift */,
+				D3E544C9281A6BC30081B157 /* BorderedView.swift */,
+				D3E544CB281A6BDF0081B157 /* BorderLayer.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,7 +410,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3E5449E2819C1260081B157 /* issues.csv in Resources */,
-				D3E5448E2819B9D60081B157 /* Main.storyboard in Resources */,
+				D3E544B8281A63990081B157 /* ErrorViewController.xib in Resources */,
+				D3E544B6281A636C0081B157 /* EmptyViewController.xib in Resources */,
+				D3E544BA281A63C40081B157 /* DetailsViewController.xib in Resources */,
+				D3E544B2281A62B10081B157 /* CustomerViewCell.xib in Resources */,
+				D3E544B4281A62FE0081B157 /* LoadingViewController.xib in Resources */,
 				D3E54461281995FF0081B157 /* LaunchScreen.storyboard in Resources */,
 				D3E5445E281995FF0081B157 /* Assets.xcassets in Resources */,
 			);
@@ -381,20 +443,30 @@
 			files = (
 				D3E544A42819D3490081B157 /* AppDependency.swift in Sources */,
 				D3E544962819BE6D0081B157 /* KeyedContainer.swift in Sources */,
+				D3E544C4281A6B360081B157 /* EmptyViewController.swift in Sources */,
 				D3E544AE2819D9EA0081B157 /* Instantiatable.swift in Sources */,
 				D3E544A82819D8D10081B157 /* AppCoordinator.swift in Sources */,
+				D3E544C0281A6A550081B157 /* CustomerCollectionViewController.swift in Sources */,
 				D3E5449A2819BED30081B157 /* UnkeyedContainer.swift in Sources */,
+				D3E544CA281A6BC30081B157 /* BorderedView.swift in Sources */,
 				D3E544AC2819D9660081B157 /* DetailsCoordinator.swift in Sources */,
 				D3E544A22819D2CE0081B157 /* DataProvider.swift in Sources */,
+				D3E544C6281A6B500081B157 /* ErrorViewController.swift in Sources */,
+				D3E544D4281A6CBF0081B157 /* DetailsViewModel.swift in Sources */,
 				D3E544AA2819D9120081B157 /* HomeCoordinator.swift in Sources */,
 				D3E544942819BE4C0081B157 /* Header.swift in Sources */,
-				D3E54459281995FD0081B157 /* ViewController.swift in Sources */,
+				D3E544CC281A6BDF0081B157 /* BorderLayer.swift in Sources */,
+				D3E544D2281A6C9F0081B157 /* CustomerViewModel.swift in Sources */,
 				D3E544922819BDF00081B157 /* CSVDecoder.swift in Sources */,
 				D3E54455281995FD0081B157 /* AppDelegate.swift in Sources */,
+				D3E544C2281A6B060081B157 /* DetailsViewController.swift in Sources */,
+				D3E544D0281A6C6E0081B157 /* CustomerListViewModel.swift in Sources */,
+				D3E544BE281A69120081B157 /* BaseCollectionCollectionViewController.swift in Sources */,
 				D3E544A62819D7240081B157 /* Coordinator.swift in Sources */,
 				D3E544A02819C8210081B157 /* Customer.swift in Sources */,
+				D3E544C8281A6B860081B157 /* LoadingViewController.swift in Sources */,
 				D3E544982819BE970081B157 /* SingleValueContainer.swift in Sources */,
-				D3E54457281995FD0081B157 /* SceneDelegate.swift in Sources */,
+				D3E544CE281A6C3D0081B157 /* CustomerViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +642,6 @@
 				INFOPLIST_FILE = Rabo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -599,7 +670,6 @@
 				INFOPLIST_FILE = Rabo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
