@@ -11,7 +11,7 @@ class CustomerViewCell: UICollectionViewCell, NibInstantiatable {
 
     @IBOutlet private weak var borderedView: BorderedView? {
         didSet {
-            borderedView?.borderColor = UIColor.blue.cgColor
+            borderedView?.borderColor = UIColor.gray.cgColor
         }
     }
 
@@ -23,6 +23,8 @@ class CustomerViewCell: UICollectionViewCell, NibInstantiatable {
                 return
             }
             titleLabel?.text = viewModel.name
+            titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
+            titleLabel?.numberOfLines = 0
             borderedView?.borderSides = viewModel.borderSides
         }
     }
