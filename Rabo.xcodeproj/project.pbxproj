@@ -22,7 +22,6 @@
 		D3E5449E2819C1260081B157 /* issues.csv in Resources */ = {isa = PBXBuildFile; fileRef = D3E5449D2819C1260081B157 /* issues.csv */; };
 		D3E544A02819C8210081B157 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E5449F2819C8210081B157 /* Customer.swift */; };
 		D3E544A22819D2CE0081B157 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544A12819D2CE0081B157 /* DataProvider.swift */; };
-		D3E544A42819D3490081B157 /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544A32819D3490081B157 /* AppDependency.swift */; };
 		D3E544A62819D7240081B157 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544A52819D7240081B157 /* Coordinator.swift */; };
 		D3E544A82819D8D10081B157 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544A72819D8D10081B157 /* AppCoordinator.swift */; };
 		D3E544AA2819D9120081B157 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544A92819D9120081B157 /* HomeCoordinator.swift */; };
@@ -49,6 +48,7 @@
 		D3E544DA281A94B60081B157 /* HomeCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544D9281A94B60081B157 /* HomeCoordinatorTests.swift */; };
 		D3E544DC281A950C0081B157 /* DetailsCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544DB281A950C0081B157 /* DetailsCoordinatorTests.swift */; };
 		D3E544DE281A953E0081B157 /* DetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544DD281A953E0081B157 /* DetailsViewModelTests.swift */; };
+		D3E544E5281AABE00081B157 /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E544E4281AABE00081B157 /* AppDependency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +88,6 @@
 		D3E5449D2819C1260081B157 /* issues.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = issues.csv; sourceTree = "<group>"; };
 		D3E5449F2819C8210081B157 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		D3E544A12819D2CE0081B157 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
-		D3E544A32819D3490081B157 /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
 		D3E544A52819D7240081B157 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		D3E544A72819D8D10081B157 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		D3E544A92819D9120081B157 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -115,6 +114,7 @@
 		D3E544D9281A94B60081B157 /* HomeCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorTests.swift; sourceTree = "<group>"; };
 		D3E544DB281A950C0081B157 /* DetailsCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCoordinatorTests.swift; sourceTree = "<group>"; };
 		D3E544DD281A953E0081B157 /* DetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModelTests.swift; sourceTree = "<group>"; };
+		D3E544E4281AABE00081B157 /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,11 +165,11 @@
 		D3E54453281995FD0081B157 /* Rabo */ = {
 			isa = PBXGroup;
 			children = (
+				D3E544E3281AAB480081B157 /* Dependency */,
 				D3E544842819AA120081B157 /* Models */,
 				D3E544852819AA4F0081B157 /* Views */,
 				D3E544862819AEAD0081B157 /* ViewModels */,
 				D3E544872819AEC70081B157 /* Coordinators */,
-				D3E544892819AF370081B157 /* Dependencies */,
 				D3E5448A2819B4030081B157 /* Services */,
 				D3E5448B2819B43D0081B157 /* Utils */,
 				D3E5448C2819B4A00081B157 /* CSVDecoder */,
@@ -250,14 +250,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D3E544892819AF370081B157 /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				D3E544A32819D3490081B157 /* AppDependency.swift */,
-			);
-			path = Dependencies;
-			sourceTree = "<group>";
-		};
 		D3E5448A2819B4030081B157 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,6 +304,14 @@
 				D3E544CB281A6BDF0081B157 /* BorderLayer.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D3E544E3281AAB480081B157 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				D3E544E4281AABE00081B157 /* AppDependency.swift */,
+			);
+			path = Dependency;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,7 +450,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3E544A42819D3490081B157 /* AppDependency.swift in Sources */,
 				D3E544962819BE6D0081B157 /* KeyedContainer.swift in Sources */,
 				D3E544C4281A6B360081B157 /* EmptyViewController.swift in Sources */,
 				D3E544AE2819D9EA0081B157 /* Instantiatable.swift in Sources */,
@@ -471,6 +470,7 @@
 				D3E544C2281A6B060081B157 /* DetailsViewController.swift in Sources */,
 				D3E544D0281A6C6E0081B157 /* CustomerListViewModel.swift in Sources */,
 				D3E544BE281A69120081B157 /* BaseCollectionCollectionViewController.swift in Sources */,
+				D3E544E5281AABE00081B157 /* AppDependency.swift in Sources */,
 				D3E544A62819D7240081B157 /* Coordinator.swift in Sources */,
 				D3E544A02819C8210081B157 /* Customer.swift in Sources */,
 				D3E544C8281A6B860081B157 /* LoadingViewController.swift in Sources */,
